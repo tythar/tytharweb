@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .hero-image {
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('now.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 90vh;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-text a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 8px;
+            border: solid white 2px;
+            border-radius: 35px;
+            transition: 0.3s;
+            width: 85px;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .hero-text a:hover {
+            background-color: rgba(255,255,255,1);
+            color: black;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-center-text">
+            <h2>My name is BUKENYA ATHAHAR</h2>
+            <h3>My Registration number is 25/BSE/BU/R/0009</h3>
+        </div>
+
+        <div class="hero-text">
+            <a href="home.html">Home</a> 
+            <a href="about.html">About Me</a>
+        </div>
+    </div>
+
+    <div class="nxt">
+        <p>I study at Bugema University and I love coding. and am really aiming to learning more of coding in webdesgn</p>    
+        <button>Learn More</button>  
+    </div>
+</body>
+</html>
